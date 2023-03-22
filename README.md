@@ -21,7 +21,9 @@ pip install djangorestframework
 pip install djangorestframework-gis
 ```
 
-Download and Install 'GDAL'
+Download OSGeo4W (for GDAL and GEOS) - https://trac.osgeo.org/osgeo4w/
+
+add the filepaths for the gdal and geos_c files in the OSGeo4W bin to the settings.py (after GDAL_LIBRARY_PATH and GEOS_LIBRARY_PATH)
 
 Download and Install 'PostgreSQL' - https://www.postgresql.org/
  - after installation, remember your password and use the StackBuilder to download the PostGIS Extension
