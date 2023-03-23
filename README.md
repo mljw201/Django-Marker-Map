@@ -1,4 +1,3 @@
-# Django-Marker-Map
 # Setup
 
 ```bash
@@ -63,7 +62,9 @@ python3 manage.py migrate
 python3 manage.py runserver
 ```
 
-#Customization
+note: the page will run on http://127.0.0.1:8000/markers/map/
+
+# Customisation
 
 the scale to which the map is zoomed in, along with where it is centred upon (if location unknown / denied) can be changed in lines 6/7 of the map.js file (located in map/markers/static/map.js)
 
